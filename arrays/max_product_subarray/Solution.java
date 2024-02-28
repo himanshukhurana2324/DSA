@@ -13,20 +13,3 @@ class Solution {
         return maxGlobal;
     }
 }
-
-// class Solution {
-// public int maxProduct(int[] arr) {
-// int n = arr.length;
-// int max = Integer.MIN_VALUE;
-// for (int i = 0; i < (1 << n); i++) {
-// int product = 1;
-// for (int j = 0; j < n; j++) {
-// if ((i & (1 << j)) > 0) {
-// product *= arr[j];
-// }
-// }
-// max = Math.max(max, product);
-// }
-// return(max);
-// }
-// }
